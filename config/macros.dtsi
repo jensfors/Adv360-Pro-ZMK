@@ -1,9 +1,3 @@
-macro_meh_key_mac: macro_meh_key_mac{
-compatible = "zmk,behavior-macro";
-label = "macro_meh_key_mac";
-#binding-cells = <0>;
-bindings = <&kp LCMD>, <&kp LEFT_ALT>, <&kp LCTRL>;
-};
 macro_last_tab_win: macro_last_tab_win{
 compatible = "zmk,behavior-macro";
 label = "macro_last_tab_win";
